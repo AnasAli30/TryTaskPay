@@ -393,5 +393,3 @@ MIT
 <p align="center">
   Built on <strong>Celo</strong> with <strong>GoodDollar G$</strong> · Non-custodial escrow · <strong>10</strong> quest types · Farcaster + X + On-chain
 </p>
-#   T r y T a s k P a y  
- 

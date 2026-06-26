@@ -1,0 +1,70 @@
+{
+  "name": "taskpay",
+  "license": "MIT",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@farcaster/auth-client": "^0.7.1",
+    "@farcaster/auth-kit": "^0.8.2",
+    "@farcaster/core": "^0.18.10",
+    "@farcaster/frame-sdk": "^0.1.12",
+    "@farcaster/hub-nodejs": "^0.15.10",
+    "@farcaster/miniapp-core": "^0.3.6",
+    "@farcaster/miniapp-node": "^0.1.6",
+    "@farcaster/miniapp-sdk": "^0.1.7",
+    "@farcaster/miniapp-wagmi-connector": "^1.0.0",
+    "@farcaster/quick-auth": "^0.0.8",
+    "@fortawesome/fontawesome-svg-core": "^7.1.0",
+    "@fortawesome/free-solid-svg-icons": "^7.1.0",
+    "@fortawesome/react-fontawesome": "^3.1.0",
+    "@headlessui/react": "^2.2.9",
+    "@noble/ed25519": "^3.0.1",
+    "@pinata/sdk": "^2.1.0",
+    "@tanstack/react-query": "^5.80.5",
+    "@upstash/redis": "^1.35.1",
+    "@vercel/functions": "^2.0.0",
+    "@vercel/og": "^0.7.2",
+    "axios": "^1.13.2",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.3.1",
+    "ethers": "^6.16.0",
+    "form-data": "^4.0.0",
+    "framer-motion": "^12.23.26",
+    "mongodb": "^6.0.0",
+    "next": "14.2.33",
+    "ox": "^0.12.1",
+    "porto": "^0.2.37",
+    "pusher": "^5.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-qr-code": "^2.0.18",
+    "siwe": "^3.0.0",
+    "viem": "^2.45.3",
+    "wagmi": "^3.4.3",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@10.6.3+sha512.bb45e34d50a9a76e858a95837301bfb6bd6d35aea2c5d52094fa497a467c43f5c440103ce2511e9e0a2f89c3d6071baac3358fc68ac6fb75e2ceb3d2736065e6",
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "@biomejs/biome"
+    ],
+    "onlyBuiltDependencies": [
+      "@biomejs/biome"
+    ]
+  }
+}
